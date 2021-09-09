@@ -28,7 +28,7 @@ public class CommandLineInterface {
 			       .addOption("p4", true, "Player 4 command line.")
 			       .addOption("s", false, "Server mode")
 			       .addOption("l", true, "File output for logs")
-			       .addOption("d", false, "Referee initial data");
+			       .addOption("d", true, "Referee initial data");
 
 			CommandLine cmd = new DefaultParser().parse(options, args);
 
